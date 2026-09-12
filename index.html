@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vobster — Destek / Support</title>
+<style>
+  :root { --bg:#FAF7F2; --surface:#FFFFFF; --text:#2E2A3A; --muted:#6B6673; --primary:#E07B29; --border:#E7E1D8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1E1811; --surface:#2A2118; --text:#F5EFE6; --muted:#B8AC9C; --primary:#F5A863; --border:#3D3325; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 22px 80px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  header .mark { width:52px; height:52px; border-radius:13px; background:var(--primary); flex:none; }
+  h1 { font-size:1.6rem; margin:0; }
+  .lede { color:var(--muted); }
+  h2 { font-size:1.1rem; margin:32px 0 8px; }
+  a { color:var(--primary); }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-top:14px; }
+  dl { margin:0; }
+  dt { font-weight:600; margin-top:14px; }
+  dd { margin:4px 0 0; color:var(--muted); }
+  footer { margin-top:48px; color:var(--muted); font-size:.85rem; }
+  .lang { font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-top:40px; }
+  hr { border:none; border-top:1px solid var(--border); margin:40px 0; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <div class="mark" aria-hidden="true"></div>
+    <div>
+      <h1>Vobster</h1>
+      <div class="lede">İngilizce kelime öğrenme uygulaması — destek sayfası</div>
+    </div>
+  </header>
+
+  <p>Vobster; 2000 yaygın İngilizce kelimeyi aralıklı tekrar (spaced repetition), 9 farklı
+  alıştırma türü ve bir seviye testiyle öğrenmeni sağlayan, tamamen çevrimdışı çalışan bir
+  uygulamadır. Hesap yok, reklam yok, internet gerekmez.</p>
+
+  <div class="card">
+    <strong>Yardıma mı ihtiyacın var?</strong><br />
+    E-posta: <a href="mailto:foralis.dev@gmail.com">foralis.dev@gmail.com</a><br />
+    Genellikle 2–3 iş günü içinde yanıt veriyoruz.
+  </div>
+
+  <h2>Sık sorulan sorular</h2>
+  <dl>
+    <dt>Verilerim nerede saklanıyor?</dt>
+    <dd>Yalnızca telefonunda. Vobster'un sunucusu yok. Ayrıntılar için
+      <a href="./privacy.html">Gizlilik Politikası</a>.</dd>
+
+    <dt>Yeni bir telefona nasıl taşırım?</dt>
+    <dd>iCloud Yedekleme açıksa otomatik gelir — yeni iPhone'unu iCloud yedeğinden kurman
+      yeterli. İstersen Ayarlar → "Verilerimi Yedekle" ile manuel bir yedek dosyası da
+      oluşturup yeni cihazda "Yedekten Geri Yükle" ile içeri aktarabilirsin.</dd>
+
+    <dt>Seviye testini tekrar yapabilir miyim?</dt>
+    <dd>Evet. Ayarlar → "Seviye Testi" bölümünden istediğin zaman yeniden çözebilirsin;
+      geçmiş sonuçların saklanır.</dd>
+
+    <dt>Kelime telaffuzları neden bazen farklı geliyor?</dt>
+    <dd>Telaffuz, telefonunun işletim sistemine ait metin-okuma motorunu kullanır.
+      Ayarlar'dan konuşma hızını değiştirebilirsin.</dd>
+
+    <dt>Günlük hatırlatma gelmiyor.</dt>
+    <dd>iOS/Android ayarlarından Vobster için bildirim izninin açık olduğundan emin ol,
+      ardından uygulama içinde Ayarlar → Hatırlatma bölümünden saati yeniden kaydet.</dd>
+
+    <dt>İlerlememi nasıl silerim?</dt>
+    <dd>Ayarlar → Tehlikeli Bölge → "Uygulamayı Sıfırla".</dd>
+  </dl>
+
+  <hr />
+
+  <p class="lang">English</p>
+  <p>Vobster helps you learn 2000 common English words with spaced repetition, 9 exercise types
+  and a placement test — fully offline. No account, no ads, no internet required.</p>
+
+  <div class="card">
+    <strong>Need help?</strong><br />
+    Email: <a href="mailto:foralis.dev@gmail.com">foralis.dev@gmail.com</a><br />
+    We usually reply within 2–3 business days.
+  </div>
+
+  <h2>FAQ</h2>
+  <dl>
+    <dt>Where is my data stored?</dt>
+    <dd>Only on your phone. Vobster has no server. See the
+      <a href="./privacy.html">Privacy Policy</a>.</dd>
+
+    <dt>How do I move to a new phone?</dt>
+    <dd>If iCloud Backup is on, it comes over automatically — just set up your new iPhone from
+      that backup. You can also create a manual backup file via Settings → "Back up my data" and
+      import it on the new device with "Restore from backup".</dd>
+
+    <dt>Can I retake the placement test?</dt>
+    <dd>Yes — Settings → "Placement test", any time. Your past results are kept.</dd>
+
+    <dt>My daily reminder isn't arriving.</dt>
+    <dd>Check that notifications are enabled for Vobster in your iOS/Android settings, then
+      re-save the time in Settings → Reminder.</dd>
+
+    <dt>How do I erase my progress?</dt>
+    <dd>Settings → Danger Zone → "Reset app".</dd>
+  </dl>
+
+  <footer>
+    © 2026 Vobster · <a href="./privacy.html">Gizlilik / Privacy</a>
+  </footer>
+
+</main>
+</body>
+</html>
